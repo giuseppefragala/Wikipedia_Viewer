@@ -1,0 +1,95 @@
+body{background-color: #cc3341;
+ 
+}
+#jumbo{background-color: #cc3341;
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Puzzlesphere-ps-realign-letters-test.svg/209px-Puzzlesphere-ps-realign-letters-test.svg.png");
+    background-repeat: no-repeat;
+    background-position: 1% 2%;  
+
+}
+
+#link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#link-button { 
+  background-color: transparent;
+  border-color: transparent;
+  color: #fff;  
+  font: 35px arial, sans-serif;  
+}
+
+#search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  font: 26px arial, sans-serif;  
+}
+
+#input{
+  background-color: #cc3341;
+  color: #fff;
+}
+
+#input::placeholder{
+  color: #ddd;
+}
+
+#search-label-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search-label {
+  color: #fff;
+  font: 35px arial, sans-serif;  
+}
+
+
+#link-button:focus {
+ outline: none;
+ box-shadow:none;
+}
+
+#output-ul:focus {
+ outline: none;
+ box-shadow:none;
+}
+
+
+#output-container{
+  background-color: #cc3341;
+}
+
+
+li{
+  background-color: #cc3341;
+}
+
+
+#output-ul{
+  background-color: #cc3341;
+  list-style-type: none;
+}
+
+.ulAuto{
+  background-color: #cc3341;
+  list-style-type: none;  
+  color: #fff;
+  width: 360px;
+}
+
+.ulAuto li{
+  background-color: #fff;
+  font: 26px arial, sans-serif;  
+}
+
+
+div{
+  color: #000;
+}
+
+a:hover, a:visited, a:link, a:active { text-decoration : none;  }
